@@ -132,8 +132,11 @@ Example Implementation: A sample implementation for code review is shown below: 
 ```
 Example Implementation: “Whenever I ask you to visualize something, please create either a Graphviz Dot file or DALL-E prompt that I can use to create the visualization. Choose the appropriate tools based on what needs to be visualized.”
 ```
-
-- 2.4 Recipe
+- 2.4 Recipe  
+![alt text](image-27.png)
+```
+Example Implementation: An example usage of this pattern in the context of deploying a software application to the cloud is shown below: “I am trying to deploy an application to the cloud. I know that I need to install the necessary dependencies on a virtual machine for my application. I know that I need to sign up for an AWS account. Please provide a complete sequence of steps. Please fill in any missing steps. Please identify any unnecessary steps.”
+```
 - 2.5 Template  
 ![alt text](image-20.png)
 ```
@@ -148,7 +151,11 @@ The Error Identification category focuses on identifying and resolving errors in
 ```
 “From now on, when you generate an answer, create a set of facts that the answer depends on that should be fact-checked and list this set of facts at the end of your output. Only include facts related to cybersecurity.”
 ```
-- 3.2 Reflection
+- 3.2 Reflection  
+![alt text](image-24.png)
+```
+”When you provide an answer, please explain the reasoning and assumptions behind your selection of software frameworks. If possible, use specific examples or evidence with associated code samples to support your answer of why the framework is the best selection for the task. Moreover, please address any potential ambiguities or limitations in your answer, in order to provide a more complete and accurate response.”
+```
 
 ## 4. Prompt Improvement
 The Prompt Improvement category focuses on improving the quality of the input and output. This category includes the Question Refinement, Alternative Approaches, Cognitive Verifier, and Refusal Breaker patterns. The Question Refinement pattern ensures the LLM always suggests a better version of the user’s question. The Alternative Approaches pattern requires the LLM to suggest alternative ways of accomplishing a user-specified task. The Cognitive Verifier pattern instructs the LLM to automatically suggest a series of subquestions for the user to answer before combining the answers to the subquestions and producing an answer to the overall question. The Refusal Breaker pattern requires the LLM to automatically reword the user’s question when it refuses to produce an answer. 
@@ -167,7 +174,11 @@ Example Implementation: “From now on, whenever I ask a question about a softwa
 ```
 “When I ask you a question, generate three additional questions that would help you give a more accurate answer. When I have answered the three questions, combine the answers to produce the final answers to my original question.”
 ```
-- 4.4 Refusal Breaker
+- 4.4 Refusal Breaker  
+![alt text](image-25.png)
+```
+“Whenever you can’t answer a question, explain why and provide one or more alternate wordings of the question that you can’t answer so that I can improve my questions.”
+```
 
 ## 5. Interaction
 The Interaction category focuses on the interaction between the user and the LLM. This category includes the Flipped Interaction, Game Play, and Infinite Generation patterns. The Flipped Interaction pattern requires the LLM to ask questions rather than generate output. The Game Play pattern requires the LLM to generate output in the form of a game. The Infinite Generation pattern requires the LLM to generate output indefinitely without the user having to reenter the generator prompt each time. 
@@ -181,7 +192,6 @@ Example Implementation: A sample prompt for a flipped interaction is shown below
 ```
 Example Implementation: A sample cybersecurity game prompt is shown below: “We are going to play a cybersecurity game. You are going to pretend to be a Linux terminal for a computer that has been compromised by an attacker. When I type in a command, you are going to output the corresponding text that the Linux terminal would produce. I am going to use commands to try and f igure out how the system was compromised. The attack should have done one or more of the following things: (1) launched new processes, (2) changed files, (3) opened new ports to receive communication, (4) created new outbound connections, (5) changed passwords, (6) created new user accounts, or (7) read and stolen information. To start the game, print a scenario of what happened that led to my investigation and make the description have clues that I can use to get started.”
 ```
-
 - 5.3 Infinite Generation  
 ![alt text](image-21.png)
 ```
@@ -190,9 +200,11 @@ Example Implementation: A sample cybersecurity game prompt is shown below: “We
 
 ## 6. Context Control
 Finally, the Context Control category focuses on controlling the contextual information in which the LLM operates. This category includes the Context Manager pattern, which allows the user to specify the context for the LLM’s output.
-- Context Manager
-
-
+- Context Manager  
+![alt text](image-26.png)
+```
+Example Implementation: To specify context consider using the following prompt: “When analyzing the following pieces of code, only consider security aspects.” Likewise, to remove context consider using the following prompt: “When analyzing the following pieces of code, do not consider formatting or naming conventions.” Clarity and specificity are important when providing or removing context to/from an LLM so it can better understand the intended scope of the conversation and generate more relevant responses. In many situations, the user may want to completely start over and can employ this prompt to reset the LLM’s context: “Ignore everything that we have discussed. Start over.” The “start over” idea helps produce a complete reset of the context.
+```
 
 ## Misc Examples:
 Question Refinement + Cognitive Verifier + Persona
@@ -201,9 +213,14 @@ Question Refinement + Cognitive Verifier + Persona
 ```
 
 
+# Prompts, Conversations, & New Information
+
+
+
 # End of Module Review
 ## How is this impactful?
-Using a persona pattern, ChatGPT provides output that I could not even begin to wonder what to ask because it is outside of my domain of knowledge.
+
+
 
 ## Moving forward/How can I apply this to my workflow? 
 

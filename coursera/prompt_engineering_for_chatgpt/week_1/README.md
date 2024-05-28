@@ -43,8 +43,3 @@ Using a persona pattern, ChatGPT provides output that I could not even begin to 
 
 
 
-# Translation to Trading Notes
-Risk Manager Assessment
-Senior Trading Desk Trader Assessment
-
-[Insert Scenario]
