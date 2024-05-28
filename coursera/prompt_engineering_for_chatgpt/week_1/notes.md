@@ -41,6 +41,8 @@ Using a persona pattern, ChatGPT provides output that I could not even begin to 
 
 ## Moving forward/How can I apply this to my workflow? 
 
+
+
 # Translation to Trading Notes
 Risk Manager Assessment
 Senior Trading Desk Trader Assessment
