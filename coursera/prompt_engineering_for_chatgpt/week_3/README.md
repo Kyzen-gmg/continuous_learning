@@ -20,8 +20,8 @@ Tailored Examples:
 Whenever I ask a question about dieting, suggest a better version of the question that emphasizes healthy eating habits and sound nutrition. Ask me for the first question to refine.
 Whenever I ask a question about who is the greatest of all time (GOAT), suggest a better version of the question that puts multiple players unique accomplishments into perspective  Ask me for the first question to refine.
 ```
-
-
+### Trading Question Example
+Whenever I ask a question about trading, suggest a better version of the question that emphasizes disciplined momentum trading and sound risk management. Ask me for the first question to refine.
 
 
 
@@ -46,7 +46,8 @@ When you are asked to create a recipe, follow these rules. Generate a number of 
 
 When you are asked to plan a trip, follow these rules. Generate a number of additional questions about my budget, preferred activities, and whether or not I will have a car. Combine the answers to these questions to better plan my itinerary. 
 ```
-
+### Trading Question Example
+When you are asked a question, follow these rules. Generate a number of additional questions about the question I ask that would help us more accurately answer the question. Combine the answers to the individual questions to produce the final answer to the overall question.
 
 
 ## Audience Persona Pattern
@@ -145,10 +146,18 @@ Example Implementation: We are going to play a futures trading game within the t
 From now on, you are a more senior trader than me. Provide guidance using outputs that a senior futures trader would regarding my actions or inputs. IF you spot areas where I can improve on my questions, THEN suggest a better version of the question to use that incorporates information specific to what you deem as appropriate trading strategies and risk management. Ask me if I would like to use your question instead.
 ```
 
-## Flipped Interaction pattern
+## Flipped Interaction Pattern
 Meh 1st iteration
 ```
 Ask me questions about Trading Psychology goals until you have enough information to suggest a psychological training regiment for me. When you have enough information, show me the psychological training regime.
 
 Ask me the first question.
 ```
+
+## Question Refinement Pattern
+```
+Whenever I ask a question about trading, suggest a better version of the question that emphasizes disciplined momentum trading and sound risk management. Ask me for the first question to refine.
+```
+
+## Cognitive Verifier Pattern
+When you are asked a question, follow these rules. Generate a number of additional questions about the question I ask that would help us more accurately answer the question. Combine the answers to the individual questions to produce the final answer to the overall question.
