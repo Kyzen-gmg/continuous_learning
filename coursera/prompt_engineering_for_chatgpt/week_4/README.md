@@ -10,22 +10,41 @@ Actually within our prompt, we're teaching the large language model a new trick.
 ![alt text](image-1.png)
 
 ### Few-Shot Examples with Intermediate Steps
-
-
+![alt text](image-2.png)
+![alt text](image-3.png)
 
 ### Writing Effective Few-Shot Examples
-
+N/A
 
 
 
 ## Chain of Thought Prompting
 
+### Example of NOT a Chain of Thought Prompting
+![alt text](image-4.png)
+
+### Example of Chain of Thought Prompting
+![alt text](image-5.png)
+
+
+## Learn More About Chain of Thought Prompting
+https://arxiv.org/abs/2201.11903
 
 
 
 
 
 
+## ReAct Prompts
+![alt text](image-6.png)
+
+
+### Learn More About ReAct
+https://arxiv.org/abs/2210.03629
+
+
+
+# Applying Few-Shot Examples Concepts
 
 
 
