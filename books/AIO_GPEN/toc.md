@@ -1,6 +1,7 @@
 # Chapter 1       Planning and Preparation
-
-
+## PTES
+http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines
+http://www.pentest-standard.org/index.php/Pre-engagement#Questionnaires
 
 # Chapter 2       Reconnaissance
 
