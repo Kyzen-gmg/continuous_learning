@@ -207,17 +207,24 @@
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-### Value #1
-
+### Value #1: Kindness
 #### Trading Behaviors
+1. Mistakes happen - I can't control the past but I can place control measures to prevent, detect, mitigate, and recover from said mistakes in a positive/healthy manner AEB improved psych/emotional thermometer scores.
+2. Not so hard on myself. Take a step back from losses, pause, accept and forgive myself to improve resetting myself to a stable mental state AEB improved psych/emotional thermometer scores.
+3. Minimize/Avoid Sunken Cost Bias AEB improved psych/emotional thermometer scores.
 
-### Value #2
-
+### Value #2: Diligence
+*Success is when Opportunity Meets Preparation*
 #### Trading Behaviors
+1. I will always prep ahead of time whether Afterhours or Pre-market. I won't just wake up and trade setups just because I see them. *Plan The Trade, THEN Trade the Plan*
+2. I complete my Daily Report Card every single day no matter how shitty I feel AEB >80% DRC completion rate per week.
+3. Sticking to Process/checklists ingrains them into my behavior AEB >80% DRC completion rate per week. Consistent actions/behavior == Consistently Profitable Trader
 
-### Value #3
-
+### Value #3: Bigger Picture Perspective
 #### Trading Behaviors
+1. Minimize the impact of the daily Ups and Downs to my longer-term performance and mental health AEB improved psycho/emotional thermometer scores.
+2. Increase levels of patience, tenacity, perseverance, resilience, and anti-fragility. Minimize restlessness AEB less overtrading and improved psych/emotional thermometer scores.
+3. Less Tunnel Vision
 
 ### Value #4
 
